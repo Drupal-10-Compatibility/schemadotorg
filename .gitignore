@@ -3,4 +3,5 @@
 composer.lock
 /docroot
 /vendor
-/.ddev/*.example
+/.ddev
+!/.ddev/config.yaml
