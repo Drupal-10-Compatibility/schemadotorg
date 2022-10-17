@@ -13,7 +13,7 @@ jobs:
     runs-on:  ubuntu-latest
     env:
       MODULE: schemadotorg
-      MODULES: address auto_entitylabel ckeditor field_group focal_point inline_entity_form jsonapi_extras metatag next paragraphs rdf scheduler simple_sitemap token devel_generate smart_date
+      MODULES: address auto_entitylabel ckeditor field_group focal_point inline_entity_form jsonapi_extras metatag next office_hours paragraphs rdf scheduler simple_sitemap token devel_generate smart_date allowed_formats range layout_paragraphs
       COMPOSER_MEMORY_LIMIT: -1
       # Note, the username, password, port and db match mysql service setup.
       SIMPLETEST_DB: mysql://root:root@127.0.0.1:3306/schemadotorg
