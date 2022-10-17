@@ -129,9 +129,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/schemadotorg": {
-                "##3314792: Undefined array key \"settings\" in multiple modules when creating entity reference fields":"https://git.drupalcode.org/project/schemadotorg/-/merge_requests/2.patch"
-            }
         }
     }
 }
